@@ -1,0 +1,34 @@
+/*Color de fondo de la interfaz*/
+body{
+    background-color: gray;
+}
+/*Alinear el titulo al centro*/
+h1{
+    text-align: center;
+}
+/*Estilos del tablero de juego*/
+#juego{
+    border: solid 4px;
+    height: 900px;
+    background-color: aquamarine;
+    width: 1000px;
+    margin: 10px auto;
+}
+/*Estilos del marcador de resultados*/
+#marcador{
+    border: solid 4px white;
+    background-color: black;
+    color: white;
+    height: 250px;
+    width: 200px;
+    float: right;
+    margin-top: -900px;
+    margin-right: 300px;
+    padding: 15px;
+    text-align: center;
+}
+/*Estilos para la imagen de la rana*/
+#fotoRana{
+    height: 200px;
+    position: absolute;
+}
